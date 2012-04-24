@@ -10,7 +10,7 @@ public class PointR {
         this.T = 0;
     }
 
-    public PointR(double X, double Y, double T) {
+    public PointR(double X, double Y, int T) {
         this.X = X;
         this.Y = Y;
         this.T = T;
@@ -22,8 +22,7 @@ public class PointR {
         T = p.T;
     }
 
-    @Override
-    public boolean equals(Object o) {
+    public boolean equals(PointR o) {
         if(this == o) {
             return true;
         } 
