@@ -1,3 +1,15 @@
+#This is the Java port!
+
+Nothing has really been ported right now, but, we're working on it.
+
+Here's what we're supposed to do:
+
+* Port the gesture recognition to Java
+* Port the setup to Java
+* Port the apps to Java
+
+Right now, everything is running on C#.NET with OpenCV, so, it will take quite a bit of time to get this ported.
+
 README
 ------
 
